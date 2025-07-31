@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-pp8=eqe1x-wfl0b!*5m)b^pu$9a9#wag___v#8jb19_7*hl0-h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = ['library-management-1-d46a.onrender.com','localhost','127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
